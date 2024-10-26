@@ -20,7 +20,7 @@ rh = MyReceiveHandler()
 
 engine = pe.PacketEngine(rh)
 # Connect to the server
-print('trying to connect with server...')
+print('trying to connect with server..')
 engine.connect_to_server('195.230.110.49', 8000)
 
 print(engine)
